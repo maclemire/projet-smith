@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Base({ phrase, titre }) {
   return (
-    <div className="bg-beige">
-      <p className="">{phrase}</p>
-      <p className="">{titre}</p>
+    <div className="">
+      <p className="text-grey text-lg">{phrase}</p>
+      <p className="text-primary text-5xl font-bold">{titre}</p>
     </div>
   );
 }

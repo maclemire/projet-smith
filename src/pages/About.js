@@ -5,6 +5,6 @@ import Base from "../components/Props/Base";
 export default function About() {
   return (
   <Layout>
-    <Base phrase='developpeur' titre='julien' />
+    <Base phrase='Développeur full stack' titre='Justin Bieber' />
   </Layout>);
 }
