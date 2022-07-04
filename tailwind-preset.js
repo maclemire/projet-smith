@@ -29,10 +29,11 @@ module.exports = {
         secondary: {
           light: "#ff7ce5",
           DEFAULT: "#8583e1",
-          dark: "#ff16d1",
+          
         },
         grey: {
           DEFAULT: "#9f9fb0",
+          dark: "#838293",
         },
         white: {
           DEFAULT: "#fff",

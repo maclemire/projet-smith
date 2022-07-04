@@ -8,7 +8,7 @@ export default function Layout({children}) {
       <Navigation />
       <div className="flex ml-8 mr-12">
         <Description />
-        <main className="bg-beige w-11/12 pl-24 pt-24 font-montserrat">{children}</main>
+        <main className="bg-beige w-11/12 px-24 pt-12 font-montserrat">{children}</main>
       </div>
     </div>
   );
