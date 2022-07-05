@@ -19,21 +19,25 @@ export default function Description() {
         <p className="pl-9 pb-3">
           Location: <span className="text-white pl-2">London UK</span>
         </p>
-        <p className="pb-3">
+        <a href="mailto:contactme@templatename.com">
           <img className="inline-block pr-4" src="lettre.webp" alt="" />
           contactme@templatename.com
-        </p>
-        <p className="pb-3">
+        </a>
+        <p className="pb-3 pt-3">
           <img className="inline-block pr-4" src="tel.webp" alt="" />
           +76 6524 567862 763
         </p>
-        <p className="pb-6">
+        <a
+          href="http://www.mytemplatename.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="inline-block pr-4" src="ecran.webp" alt="" />
           www.mytemplatename.com
-        </p>
+        </a>
       </div>
 
-      <div className="flex text-grey pl-20 pb-4">
+      <div className="flex text-grey pl-20 pb-4 pt-6">
         <a
           href="https://google.com"
           className="text-2xl pr-6"
@@ -58,10 +62,12 @@ export default function Description() {
         >
           <FaFacebookF />
         </a>
-        <a href="https://twitter.com" 
-           target="_blank" 
-           rel="noopener noreferrer" 
-           className="text-lg pr-6">
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg pr-6"
+        >
           <BsTwitter />
         </a>
       </div>
