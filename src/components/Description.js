@@ -1,4 +1,8 @@
-import React from 'react'
+import React from "react";
+import { AiOutlineGooglePlus } from "react-icons/ai";
+import { RiPinterestLine } from "react-icons/ri";
+import { FaFacebookF } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
 
 export default function Description() {
   return (
@@ -27,6 +31,39 @@ export default function Description() {
           <img className="inline-block pr-4" src="ecran.webp" alt="" />
           www.mytemplatename.com
         </p>
+      </div>
+
+      <div className="flex text-grey pl-20 pb-4">
+        <a
+          href="https://google.com"
+          className="text-2xl pr-6"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiOutlineGooglePlus />
+        </a>
+        <a
+          href="https://pinterest.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xl pr-6"
+        >
+          <RiPinterestLine />
+        </a>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg pr-6"
+        >
+          <FaFacebookF />
+        </a>
+        <a href="https://twitter.com" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           className="text-lg pr-6">
+          <BsTwitter />
+        </a>
       </div>
     </div>
   );
