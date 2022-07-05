@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ServicesCard({ icone, titre, texte}) {
   return (
-    <div className="flex pt-24">
+    <div className="flex py-24">
       <img className="w-12 h-12" src={icone} alt="" />
       <div className="pl-6">
         <p className="font-bold text-xl text-primary">{titre}</p>

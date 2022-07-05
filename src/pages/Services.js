@@ -13,9 +13,24 @@ export default function Services() {
           titre="Développement de site web"
           texte="La création de site web est indispensable pour améliorer la visibilité de ses activités. Le développement de votre site web est réalisé avec soin et répond aux standards web du W3C"
         />
-        <ServicesCard icone="feuille.webp" titre="Maintenance" texte="Un site internet en bonne santé est un site internet mis à jour. Les forfaits de maintenance proposés sont le fruit d'années d'expériences et de solutions apportées à mes clients afin de vous garantir un site internet performant et fiable." />
-        <ServicesCard icone="graph.webp" titre="Référencement (SEO)" texte="Votre site internet est développé avec pour objectif d'apparaître dans les premières pages sur les moteurs de recherche." />
+        <ServicesCard
+          icone="feuille.webp"
+          titre="Maintenance"
+          texte="Un site internet en bonne santé est un site internet mis à jour. Les forfaits de maintenance proposés sont le fruit d'années d'expériences et de solutions apportées à mes clients afin de vous garantir un site internet performant et fiable."
+        />
+        <ServicesCard
+          icone="graph.webp"
+          titre="Référencement (SEO)"
+          texte="Votre site internet est développé avec pour objectif d'apparaître dans les premières pages sur les moteurs de recherche."
+        />
       </div>
+
+      <a
+        className="bg-secondary text-white px-11 py-4 mt-30 text-xs"
+        href="mailto:contactme@templatename.com"
+      >
+        Contactez-moi
+      </a>
     </Layout>
   );
 }
