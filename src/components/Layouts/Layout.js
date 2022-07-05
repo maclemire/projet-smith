@@ -4,7 +4,7 @@ import Navigation from '../Navigation/Navigation';
 
 export default function Layout({children}) {
   return (
-    <div className="">
+    <div>
       <Navigation />
       <div className="flex ml-8 mr-12">
         <Description />
